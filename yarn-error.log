@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test -- -u
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alexm\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Brackets\command;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files\JetBrains\WebStorm 2017.2\bin;C:\Program Files (x86)\Yarn\bin;C:\Ruby23-x64\bin;C:\Users\alexm\AppData\Local\Microsoft\WindowsApps;C:\Users\alexm\AppData\Roaming\npm;C:\Users\alexm\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin
@@ -6401,7 +6401,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c cross-env NODE_ENV=test jest --config=jest.config.json
+  Arguments: /d /s /c cross-env NODE_ENV=test jest --config=jest.config.json -u
   Directory: C:\Users\alexm\Desktop\r-16-10-array-data-2\expensify
   Output:
   
